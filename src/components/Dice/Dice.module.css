@@ -1,0 +1,20 @@
+.dice {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.dice img {
+    width: 250px;
+    cursor: pointer;
+}
+.dice h1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.btns {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

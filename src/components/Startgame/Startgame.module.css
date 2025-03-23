@@ -1,0 +1,14 @@
+.col_2 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.col_left img {
+    width: 522px;
+}
+.col_right h1 {
+    font-size: 96px;
+    white-space: nowrap;
+}
+
+
