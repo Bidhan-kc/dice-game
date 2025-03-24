@@ -2,13 +2,14 @@ import React, { useState } from 'react'
 import style from "./Number.module.css"
 import { TbHandFinger } from "react-icons/tb";
 
-const Number = () => {
+const Number = ({selected, setselected}) => {
 
     const Numbers= [1,2,3,4,5,6];
 
-    const [selected, setselected] = useState(null);
-
+    
+    
     function handleClick({index}) {
+      console.log(index)
         setselected(index);
     }
 

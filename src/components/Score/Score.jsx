@@ -1,10 +1,10 @@
 import React from 'react'
 import style from "./Score.module.css"
 
-const Score = () => {
+const Score = ({score}) => {
   return (
     <div className={style.score}>
-      <h1>0</h1>
+      <h1>{score}</h1>
       <p>Total score</p>
     </div>
   )
